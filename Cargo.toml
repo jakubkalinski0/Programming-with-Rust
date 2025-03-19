@@ -1,0 +1,14 @@
+[package]
+name = "Programming-with-Rust"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "tic_tac_toe"
+path = "src/Lab1_Basic_language_syntax/Task1_Tic-Tac-Toe_Game/main.rs"
+
+[[bin]]
+name = "sudoku_checker"
+path = "src/Lab1_Basic_language_syntax/Task2_Sudoku_Checker/main.rs"
+
+[dependencies]
